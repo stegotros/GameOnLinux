@@ -2,7 +2,7 @@
 
 # Process to game on Linux
 ## Tested with:
-### - Linux Mint 20.3, 21 and 21.1 (should work on ubuntu 20.04 and 22.04)
+### - Linux Mint 20.3, 21 and 21.1 (should work on ubuntu 20.04 and 22.04t)
 ### - CPU : AMD ryzen 5 5600X
 ### - GPU : AMD radeon 6600XT
 ###
