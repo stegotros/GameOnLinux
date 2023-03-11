@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="generator" content="Aspose.Words for .NET 23.1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Game on Linux</title>
+  </head>
+  <body>
+    <div class="container text-justify">
+      <p class="fs-1"><b>Process to game on Linux</b></p>
+      <p class="fs-3 fw-bold">
+        Test with:
+      </p>
+      <p class="fs-5">
+          - Linux Mint cinnamon 20.4, 21 and 21.1
+      </p>
+      <p class="fs-5">
+        - CPU : AMD ryzen 5 5600X
+      </p>
+      <p class="fs-5">
+        - GPU : AMD radeon 6600XT
+      </p>
+     <hr style="background-color: black;">
+      <p class="fs-3 fw-bold">
+        Wine :
+      </p>
+      <p class="fs-5">
+        run the following commands to install good packages and extensions of wine:
+      </p>
+      <div style="background-color: rgba(128, 128, 128, 0.507);" class="container rounded">
+      <p>
+        sudo apt update 
+        <br/>
+        apt full upgrade
+        <br/>
+        apt install wine
+        <br/>
+        apt install -y wine winetricks
+      </p>
+      </div>
+      <hr style="background-color: black;">
+      <p class="fs-3 fw-bold">
+        Steam :
+      </p>
+      <p class="fs-5">
+        download steam for linux;
+      </p>
+      <p class="fs-5">
+        Once it's done and you're connected, on Steam, go to:
+        <ul>
+            <li>Steam ;</li>
+            <li>Settings ;</li>
+            <li>Steam play ;</li>
+            <li>Check "Enable Steam Play for all other titles" checkbox ;</li>
+            <li>
+                Select a Proton version in the "Run other titles with:" selection
+                window (the more recent before the experimental one should be
+                good).
+            </li>
+        </ul>
+
+      <p class="fs-5">
+        If no downloads are running, you can try to install a non compatible
+        linux game, and then the selected version of proton should be
+        installed.
+      </p>
+      <p class="fs-5">
+        Some of games, even with basic proton, could still not working. To be
+        sure to run all of your games, check 
+        <a href="https://github.com/GloriousEggroll/proton-ge-custom/releases" style="text-decoration: none"><span class="Hyperlink" style="font-weight: normal">this link</a>
+        to get proton GE on github.
+      </h3>
+      <p class="fs-5">
+        There's custom proton versions that you can download, these are
+          really recommanded to launch launcher from steam like epic games,
+          battlenet, etc...
+        
+      </p>
+      <p class="fs-5">
+        Once you've download a version of proton GE (the most recent shouldbe enough), go to 
+        /home/.steam/steam/compatibilitytools.d/ and extract it in this folder. If the folder compatibilitytools.d doesn't exit, create it.
+      </p>
+      <p class="fs-5">
+        Once it's extract, restart steam.
+      </p>
+      <hr style="background-color: black;">
+      <p class="fs-3 fw-bold">
+        Other launchers:
+      </p>
+      <p class="fs-5">
+        Download your launcher .exe or .msi like you used to on Windows.
+      </p>
+      <p class="fs-5 fw-bold">
+        The fowlloing process have to be done one launcher by one.
+      </p>
+      <p class="fs-5">Go on steam :</p>
+      <ul>
+        <li>Games (not library) ;</li>
+        <li>Add a non steam game to my library ;</li>
+        <li>Select BROWSE... ;</li>
+        <li>Go in the folder with the launchers ;</li>
+        <li>Select one ;</li>
+        <li>Click on ADD SELECTED PROGRAMS.</li>
+      </ul>
+
+      <p class="fs-5">
+        In the list of your games :
+      </p>
+
+      <ul>
+        <li>
+            Right click on the launcher ;
+        </li>
+        <ul>
+            <li>
+            Select Properties ;
+            </li>
+            <li>
+            Compatibility ;
+            </li>
+            <li>
+                Check "Force the use of a specefic Steam Play compatibility tool";
+            </li>
+            <li>
+            Select one of the GE proton version that you put in the
+                compatibilitytools.d folder ;
+            </li>
+            <li>
+            close the window.
+            </li>
+        </ul>
+        <li>Launch your launcher ;</li>
+        <li>Once the install of the launcher is done :</li>
+        <li>You have to right click againe one the launcher ;</li>
+        <li>Properties ;</li>
+        <li>change the path in the shortcut in target and in start in :</li>
+        <ul>
+            <li>the path have to be something like this the following path.</li>
+            <li>/home/user/.local/share/Steam/steamapps/compatdata/1234567890/pfx/drive_c/users/steamuser/Desktop/[Launcher].lnk ;</li>
+        </ul>
+      </ul>
+      <p class="fs-5">
+        In compatdata, to find which of the number like 1234567890 is your
+          launcher, refers you to the date/houre that it was made, that can help
+          you.
+      </p>
+      <p class="fs-5">
+        So, when you find the .lnk laucher, just copy the all path in the target and start in of the properties of you're launcher on steam.
+      </p>
+      <p class="fs-5">
+        Thank you for reading this process.
+      </p>
+    </div>
+  </body>
+</html>
