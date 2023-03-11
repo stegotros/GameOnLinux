@@ -1,8 +1,8 @@
 # GameOnLinux
 
 # Process to game on Linux
-## Test with:
-### - Linux Mint cinnamon 20.4, 21 and 21.1
+## Tested with:
+### - Linux Mint 20.3, 21 and 21.1
 ### - CPU : AMD ryzen 5 5600X
 ### - GPU : AMD radeon 6600XT
 ###
@@ -12,7 +12,6 @@
 ```
 sudo apt update 
 apt full upgrade
-apt install wine
 apt install -y wine winetricks
 ```
 #
