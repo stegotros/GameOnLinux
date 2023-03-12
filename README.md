@@ -29,7 +29,7 @@ apt install -y wine winetricks
 ### There's custom proton versions that you can download, these are really recommanded to launch launcher from steam like epic games, battlenet, etc...
 ### Once you've download a version of proton GE (the most recent should be enough), go to :
 >/home/.steam/steam/compatibilitytools.d/
-### and extract it in this folder. **If the folder compatibilitytools.d doesn't exit, create it**.
+### and extract it in this folder. If the folder *compatibilitytools.d* doesn't exit, create it.
 ### Once it's extract, restart steam.
 #
 ## Other launchers:
