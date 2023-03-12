@@ -50,10 +50,10 @@ apt install -y wine winetricks
   * Select one of the GE proton version that you put in the compatibilitytools.d folder ;
   * close the window.
 * Launch your launcher ;
-**Once the install of the launcher is done** :
+### Once the install of the launcher is done :
 * You have to right click againe one the launcher ;
 * Properties ;
-* change the path in the shortcut in <span style="color:red">target</span> and in <span style="color:red">start in</span> :
+* change the path in the <u>shortcut</u> section, in <span style="color:red">target</span> and in <span style="color:red">start in</span> :
   * the path have to be something like this the following path.
   * >/home/user/.local/share/Steam/steamapps/compatdata/1234567890/pfx/drive_c/users/steamuser/Desktop/**[Launcher].lnk** ;
 ### In compatdata, to find which of the number like 1234567890 is your launcher, refers you to the date/houre that it was made, that can help you.
