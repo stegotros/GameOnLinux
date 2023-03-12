@@ -27,7 +27,9 @@ apt install -y wine winetricks
 ##
 ### Some of games, even with basic proton, could still not working. To be sure to run all of your games, check [this link](https://github.com/GloriousEggroll/proton-ge-custom/releases) to get proton GE on github.
 ### There's custom proton versions that you can download, these are really recommanded to launch launcher from steam like epic games, battlenet, etc...
-### Once you've download a version of proton GE (the most recent should be enough), go to **/home/.steam/steam/compatibilitytools.d/** and extract it in this folder. **If the folder compatibilitytools.d doesn't exit, create it**.
+### Once you've download a version of proton GE (the most recent should be enough), go to :
+>/home/.steam/steam/compatibilitytools.d/
+### and extract it in this folder. **If the folder compatibilitytools.d doesn't exit, create it**.
 ### Once it's extract, restart steam.
 #
 ## Other launchers:
@@ -51,10 +53,10 @@ apt install -y wine winetricks
 **Once the install of the launcher is done** :
 * You have to right click againe one the launcher ;
 * Properties ;
-* change the path in the shortcut in **target** and in **start in** :
+* change the path in the shortcut in <span style="color:red">target</span> and in <span style="color:red">start in</span> :
   * the path have to be something like this the following path.
   * >/home/user/.local/share/Steam/steamapps/compatdata/1234567890/pfx/drive_c/users/steamuser/Desktop/**[Launcher].lnk** ;
 ### In compatdata, to find which of the number like 1234567890 is your launcher, refers you to the date/houre that it was made, that can help you.
-### So, when you find the .lnk laucher, just copy the all path in the **target** and **start in** of the properties of you're launcher on steam.
+### So, when you find the .lnk laucher, just copy the all path in the <span style="color:red">target</span> and <span style="color:red">start in</span> of the properties of you're launcher on steam.
 
 ### thank you for reading this process.
