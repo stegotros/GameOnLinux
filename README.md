@@ -1,4 +1,4 @@
-# GameOnLinux
+# All of your games on Linux
 
 # Process to play on Linux
 ## Tested with:
