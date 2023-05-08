@@ -18,10 +18,15 @@ apt install -y wine winetricks
 ### download steam for linux;
 ### Once it's done and you're connected, on Steam, go to:
 * Steam ;
+>  ![Text alternatif](./steam.png)
 * Settings ;
+>  ![Text alternatif](./steamsettings.png)
 * Steam play ;
+>  ![Text alternatif](./steamplay.png)
 * Check "Enable Steam Play for all other titles" checkbox ;
+>  ![Text alternatif](./enableproton.png)
 * Select a Proton version in the "Run other titles with:" selection window (the more recent before the experimental one should be good).
+>  ![Text alternatif](./selectprotonversion.png)
 ##
 ### If no downloads are running, you can try to install a non compatible linux game, and then the selected version of proton should be installed.
 ##
