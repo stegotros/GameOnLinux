@@ -28,14 +28,16 @@ apt install -y wine winetricks
 * Select a Proton version in the "Run other titles with:" selection window (the more recent before the experimental one should be good).
 >  ![Text alternatif](./pictures/selectprotonversion.png)
 ##
-### If no downloads are running, you can try to install a non compatible linux game, and then the selected version of proton should be installed.
+If no downloads are running, you can try to install a non compatible linux game, and then, the selected version of proton will install itself.
 ##
-### Some of games, even with basic proton, could still not working. To be sure to run all of your games, check [this link](https://github.com/GloriousEggroll/proton-ge-custom/releases) to get proton GE on github.
-### There's custom proton versions that you can download, these are really recommanded to launch launcher from steam like epic games, battlenet, etc...
-### Once you've download a version of proton GE (the most recent should be enough), go to :
+Some of games, even with basic proton, could still not working. To be sure to run all of your games, check [this link](https://github.com/GloriousEggroll/proton-ge-custom/releases) to get proton GE on github.
+There's custom proton versions that you can download, these are really recommanded to launch launcher from steam like epic games, battlenet, etc...
+Also, if you want to know how your game is playable on linux,check the [protondb page](https://www.protondb.com/).
+Once you've download a version of proton GE (the most recent should be enough), go to :
 >/home/.steam/steam/compatibilitytools.d/
-### and extract it in this folder. If the folder *compatibilitytools.d* doesn't exit, create it.
-### Once it's extract, restart steam.
+
+and extract it in this folder. If the folder *compatibilitytools.d* doesn't exit, create it.
+Once it's extract, restart steam.
 #
 ## Other launchers:
 ### Download your launcher .exe or .msi like you used to on Windows.
